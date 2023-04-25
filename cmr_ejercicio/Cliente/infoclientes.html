@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion de clientes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-color: pink;
+    }
+</style>
+
+<body>
+
+    <section class="encabezado" style="background-color: pink; padding: 20px;">
+        <h1 class="titulo text-center">Contacto</h1>
+    </section>
+
+    <div class="container mt-4">
+        <h3 class="titulo2 text-center">Formulario ingreso de contacto</h3>
+
+        <form id="form_contactos">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="">Nombre cliente</label>
+                    <select name="nombre" id="clientes" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="">Fecha</label>
+                    <input type="date" name="fecha" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">Estado</label>
+                <select name="estado" class="form-control">
+                    <option value="cerrado">Cerrado</option>
+                    <option value="Interesado">Interesado</option>
+                    <option value="No Interesado">No interesado</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Tipo de contacto</label>
+                <select name="tipo" class="form-control">
+                    <option value="presencial">Presencial</option>
+                    <option value="virtual">Virtual</option>
+                    <option value="telefonica">Telefonica</option>
+                </select>
+            </div>
+            <button id="btn_agregar" type="submit" class="btn btn-primary">Agregar</button>
+        </form>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="titulo2 text-center" id="mensaje"></h2>
+        <table id="tablaC" class="table table-striped">
+        </table>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mongoose/6.3.8/mongoose.min.js"></script>
+    <script src="./infoclientes.js"></script>
+</body>
+
+</html>
