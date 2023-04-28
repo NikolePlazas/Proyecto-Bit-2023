@@ -1,0 +1,117 @@
+body {
+	background-image: url('./medicalPig.jpeg.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto;
+	background-color: white;
+	border: 3px solid blue;
+	padding: 20px;
+	text-align: left;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 20px;
+  }
+  
+  .titulo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 20px;
+  }
+  
+  .titulo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .titulo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+.rectangle {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	color: white;
+	font-size: 24px;
+	line-height: 100px;
+	text-align: center;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type=text], select {
+	border: 2px solid royalblue;
+	padding: 5px;
+	border-radius: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+input[type=text] {
+	margin-right: 20px;
+}
+
+input[type=submit] {
+	background-color: royalblue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: navy;
+}
+form {
+	width: 600px;
+	margin: auto;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+select, input[type=text], input[type=submit] {
+	display: inline-block;
+	vertical-align: middle
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 60px;
+}
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uroanalisis</title>
+    <link rel="stylesheet" href="estilosU.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+		<div class="titulo">
+            <h1>Uroanalisis</h1>
+          </div>
+        <br>
+		<form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
+    <br>
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad" name="edad" placeholder="Ingresa tu edad">
+    <br>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+        </form>
+        <br>
+        <form>
+            <h3>Analisis macroscopico:</h3>
+            <br>
+            <div class="form-group">
+              <label for="color">Color:</label>
+              <select id="color" name="color">
+                <option value="no_color">No color</option>
+                <option value="paja_palida">Paja palida</option>
+                <option value="amarillo_transparente">Amarillo transparente</option>
+                <option value="amarillo_oscuro">Amarillo oscuro</option>
+                <option value="ambar">Ambar</option>
+                <option value="rojo">Rojo</option>
+                <option value="naranja">Naranja</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="morado">Morado</option>
+                <option value="espuma">Espuma</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="aspecto">Aspecto:</label>
+              <select id="aspecto" name="aspecto">
+                <option value="option1">Clara</option>
+                <option value="option2">Turbia</option>
+                <option value="option3">Oscura</option>
+        
+              </select>
+            </div>
+            
+            <h3>Analisis quimico:</h3>
+            <br>
+            <div class="form-group">
+              <label for="ph">Ph:</label>
+              <input type="text" id="ph" name="ph">
+            </div>
+            <div class="form-group">
+              <label for="leucoesterasa">Leucoesterasa:</label>
+              <input type="text" id="leucoesterasa" name="leucoesterasa">
+            </div>
+            <div class="form-group">
+              <label for="sangre">Sangre:</label>
+              <select id="sangre" name="sangre">
+                <option value="si">Si</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          
+            <h3>Analisis Microscopico:</h3>
+            <br>
+            <div class="form-group">
+              <label for="leucocitos">Leucocitos:</label>
+              <input type="text" id="leucocitos" name="leucocitos">
+            </div>
+            <div class="form-group">
+              <label for="densidad">Densidad:</label>
+              <input type="text" id="densidad" name="densidad">
+            </div>
+            <div class="form-group">
+              <label for="germenes">Germenes:</label>
+              <input type="text" id="germenes" name="germenes">
+            </div>
+            <div class="form-group">
+              <label for="creatinina">Creatinina:</label>
+              <input type="text" id="creatinina" name="creatinina">
+            </div>
+          </form>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+    
+	</div>
+	<div class="rectangle">  copyright Medipig®</div>
+
+    
+</body>
+</html>
